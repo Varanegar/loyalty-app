@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2e68c54a-b93f-403b-b439-3d0c446c0d01}</ProjectGuid>
+    <ProjectGuid>{2E68C54A-B93F-403B-B439-3D0C446C0D01}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LoyaltyAppLibrary</RootNamespace>
@@ -35,10 +35,40 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="App\Client.cs" />
+    <Compile Include="App\Configuration.cs" />
+    <Compile Include="App\Crypto.cs" />
+    <Compile Include="App\Extensions.cs" />
+    <Compile Include="App\IFileClient.cs" />
+    <Compile Include="App\InputValidator.cs" />
+    <Compile Include="App\SqliteClient.cs" />
+    <Compile Include="App\WebClient.cs" />
+    <Compile Include="FrameWork\BaseManager.cs" />
+    <Compile Include="FrameWork\BaseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLCrypto">
+      <HintPath>Packages\PCLCrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp.Portable">
+      <HintPath>Packages\RestSharp.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net">
+      <HintPath>Packages\SQLite-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Thinktecture.IdentityModel.Client">
+      <HintPath>Packages\Thinktecture.IdentityModel.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Validation">
+      <HintPath>Packages\Validation.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -48,5 +78,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
 </Project>
