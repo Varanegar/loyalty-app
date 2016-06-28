@@ -10,6 +10,8 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using LoyaltyAppLibrary.Manager;
+using LoyaltyAppLibrary.App;
 
 namespace LoyaltyAndroid.Fragments
 {
@@ -33,8 +35,20 @@ namespace LoyaltyAndroid.Fragments
             mLoginButton = view.FindViewById<Button>(Resource.Id.LoginButton);
             mForgotPasswordTextView = view.FindViewById<TextView>(Resource.Id.ForgotPasswordTextView);
             mRegisterButton = view.FindViewById<Button>(Resource.Id.RegisterButton);
-
             Dialog.SetCanceledOnTouchOutside(false);
+            mLoginButton.Click += delegate
+            {
+                try
+                {
+                    InputValidator.Validate(mUserNameEditText.Text, InputValidator.Filter.UserName);
+                    InputValidator.Validate(mPasswordEditText.Text, InputValidator.Filter.PassWord);
+                }
+                catch (Exception)
+                {
+
+                }
+                LoyaltyUserManager.LoginAsync(mUserNameEditText.Text, mPasswordEditText.Text);
+            };
             return view;
         }
     }

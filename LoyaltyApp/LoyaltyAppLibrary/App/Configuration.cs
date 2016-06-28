@@ -23,6 +23,10 @@ namespace LoyaltyAppLibrary.App
             public static string PortalAddress = "";
             public static readonly string OAuthTokenUrl = "/oauth/token";
             public static readonly string BaseDatas = "api/gateway/basedata/basedatas/compress/";
+            public struct User
+            {
+                public static readonly string View = "";
+            }
         }
 
         public static Setting ReadSetting(string name)

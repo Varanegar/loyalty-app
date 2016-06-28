@@ -36,6 +36,19 @@ namespace LoyaltyAppLibrary.App
                 }
                 return new ValidationResult();
             }
+            else if (filter == Filter.UserName)
+            {
+                if (string.IsNullOrEmpty(input))
+                {
+                    return new ValidationResult() { Error = ValidationError. };
+                }
+                Uri myUri;
+                if (!Uri.TryCreate(input, UriKind.Relative, out myUri))
+                {
+                    return new ValidationResult() { Error = ValidationError.InvalidUri };
+                }
+                return new ValidationResult();
+            }
             else return new ValidationResult();
         }
 
@@ -43,7 +56,9 @@ namespace LoyaltyAppLibrary.App
         {
             AbsoluteUri = 0,
             RelativeUri,
-            Email
+            Email,
+            UserName,
+            PassWord
         }
         public enum ValidationError
         {
