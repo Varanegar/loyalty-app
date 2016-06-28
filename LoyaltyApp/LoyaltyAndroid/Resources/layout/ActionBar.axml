@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/relativeLayout1"
+      android:padding="10dp">
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/MenuButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:foreground="@null"
+        android:background="@drawable/ic_reorder_white_24dp" />
+    <TextView
+        android:id="@+id/TitleTextView"
+        style="@style/TextBox.ReadOnly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/MenuButton" />
+  </RelativeLayout>
+</LinearLayout>

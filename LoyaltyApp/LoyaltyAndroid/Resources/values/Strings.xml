@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">LoyaltyAndroid</string>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">LoyaltyAndroid</string>
+  <string name="AreYouSure">آیا مطمئن هستید؟</string>
+  <string name="Yes">بله</string>
+  <string name="Cancel">انصراف</string>
+  <string name="Login">ورود</string>
+  <string name="Profile">پروفایل</string>
+  <string name="Register">ثبت نام</string>
+  <string name="ForgotPassword">کلمه عبور را فراموش کردم</string>
+  <string name="UserName">نام کاربری</string>
+  <string name="Password">کلمه عبور</string>
 </resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Dialog">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserNameEditText"
+        style="@style/TextBox"
+        android:hint="@string/UserName" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PasswordEditText"
+        style="@style/TextBox"
+        android:hint="@string/Password" />
+    <Button
+        android:text="@string/Login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginButton"
+        style="@style/Button" />
+    <TextView
+        android:text="@string/ForgotPassword"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ForgotPasswordTextView"
+        style="@style/TextBox.ReadOnly"
+        android:gravity="center"
+        android:paddingTop="50dp" />
+    <Button
+        android:text="@string/Register"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegisterButton"
+        style="@style/Button"
+        android:layout_width="150dp" />
+</LinearLayout>

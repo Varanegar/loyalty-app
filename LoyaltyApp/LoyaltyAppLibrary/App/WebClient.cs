@@ -587,7 +587,6 @@ namespace LoyaltyAppLibrary.App
 
     public class AnatoliMetaInfo : BaseModel
     {
-        public string message { get; set; }
         public Dictionary<string, string[]> modelState { get; set; }
     }
 }
