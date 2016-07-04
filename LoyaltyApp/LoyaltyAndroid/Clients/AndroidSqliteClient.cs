@@ -12,10 +12,11 @@ using Android.Widget;
 using LoyaltyAppLibrary.App;
 using SQLite;
 using System.IO;
+using Anatoli.Framework.AnatoliBase;
 
 namespace LoyaltyAndroid.Clients
 {
-    public class AndroidSqliteClient : SqliteClient
+    public class AndroidSqliteClient : AnatoliSQLiteClient
     {
         SQLiteConnection _connection;
         string _fileName = "loyalty.db";

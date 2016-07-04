@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="شما ثبت نام شده اید اما شماره شما هنوز تایید نشده است. لطفا تا دریافت کد رمز صبور باشید"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        style="@style/TextBox.ReadOnly" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CodeEditText"
+        style="@style/TextBox"
+        android:hint="@string/Code" />
+    <Button
+        android:text="@string/Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OkButton"
+        style="@style/Button" />
+</LinearLayout>

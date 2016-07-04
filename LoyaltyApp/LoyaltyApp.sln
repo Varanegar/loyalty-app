@@ -1,28 +1,42 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyAndroid", "LoyaltyAndroid\LoyaltyAndroid.csproj", "{C6721E60-7476-4E39-83D7-2CA44CEE9225}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyAppLibrary", "LoyaltyAppLibrary\LoyaltyAppLibrary.csproj", "{2E68C54A-B93F-403B-B439-3D0C446C0D01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anatoli", "..\..\..\anatoli\anatoli-device\Source\Device\Anatoli\Anatoli.csproj", "{7652423F-F5E3-4A1A-958F-7331C42AE409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		FinalRelease|Any CPU = FinalRelease|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.FinalRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.FinalRelease|Any CPU.Build.0 = Release|Any CPU
+		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.FinalRelease|Any CPU.Deploy.0 = Release|Any CPU
 		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6721E60-7476-4E39-83D7-2CA44CEE9225}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{2E68C54A-B93F-403B-B439-3D0C446C0D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E68C54A-B93F-403B-B439-3D0C446C0D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E68C54A-B93F-403B-B439-3D0C446C0D01}.FinalRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{2E68C54A-B93F-403B-B439-3D0C446C0D01}.FinalRelease|Any CPU.Build.0 = Release|Any CPU
 		{2E68C54A-B93F-403B-B439-3D0C446C0D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E68C54A-B93F-403B-B439-3D0C446C0D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7652423F-F5E3-4A1A-958F-7331C42AE409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7652423F-F5E3-4A1A-958F-7331C42AE409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7652423F-F5E3-4A1A-958F-7331C42AE409}.FinalRelease|Any CPU.ActiveCfg = FinalRelease|Any CPU
+		{7652423F-F5E3-4A1A-958F-7331C42AE409}.FinalRelease|Any CPU.Build.0 = FinalRelease|Any CPU
+		{7652423F-F5E3-4A1A-958F-7331C42AE409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7652423F-F5E3-4A1A-958F-7331C42AE409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,6 +12,7 @@ using Android.Net;
 using LoyaltyAndroid.Clients;
 using LoyaltyAppLibrary.App;
 using LoyaltyAndroid.Fragments;
+using Anatoli.Framework.AnatoliBase;
 
 namespace LoyaltyAndroid.MyApp
 {
@@ -49,7 +50,9 @@ namespace LoyaltyAndroid.MyApp
         {
             base.OnPostCreate(savedInstanceState);
             var cn = (ConnectivityManager)GetSystemService(ConnectivityService);
-            Client.Initialize(new AndroidWebClient(cn), new AndroidSqliteClient(), new AndroidFileClient());
+            AnatoliClient.Initialize(new AndroidWebClient(cn), new AndroidSqliteClient(), new AndroidFileClient());
+            Configuration.WebService.PortalAddress = "http://parastoo.varanegar.com:4444";
+            Configuration.AppMobileAppInfo.Password = "1";
             MyApp.Initialize(this, _drawerList, _drawerLayout, _titleTextView);
             MyApp.GetInstance().PushFragment(new HomeFragment(), true, true);
         }

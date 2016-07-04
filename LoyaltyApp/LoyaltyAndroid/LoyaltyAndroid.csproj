@@ -91,8 +91,12 @@
     <Compile Include="Clients\AndroidFileClient.cs" />
     <Compile Include="Clients\AndroidSqliteClient.cs" />
     <Compile Include="Clients\AndroidWebClient.cs" />
+    <Compile Include="Fragments\ChangePassWithCodeDialog.cs" />
+    <Compile Include="Fragments\ConfirmUserDialogFragment.cs" />
+    <Compile Include="Fragments\ForgotPasswordDialog.cs" />
     <Compile Include="Fragments\HomeFragment.cs" />
     <Compile Include="Fragments\LoginDialogFragment.cs" />
+    <Compile Include="Fragments\RegisterDialogFragment.cs" />
     <Compile Include="MyApp\CustomeFragment.cs" />
     <Compile Include="MyApp\MainActivity.cs" />
     <Compile Include="MyApp\Menu.cs" />
@@ -117,6 +121,18 @@
     <AndroidResource Include="Resources\layout\LoginDialogLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\RegisterDialogLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ConfirmUserDialogLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ForgotPasswordDialogLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ChangePassWithCodeDialogLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -133,6 +149,10 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\anatoli\anatoli-device\Source\Device\Anatoli\Anatoli.csproj">
+      <Project>{7652423f-f5e3-4a1a-958f-7331c42ae409}</Project>
+      <Name>Anatoli</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LoyaltyAppLibrary\LoyaltyAppLibrary.csproj">
       <Project>{2e68c54a-b93f-403b-b439-3d0c446c0d01}</Project>
       <Name>LoyaltyAppLibrary</Name>

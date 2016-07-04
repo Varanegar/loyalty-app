@@ -15,7 +15,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/PasswordEditText"
         style="@style/TextBox"
-        android:hint="@string/Password" />
+        android:hint="@string/Password"
+        android:password="true" />
     <Button
         android:text="@string/Login"
         android:layout_width="150dp"
@@ -30,11 +31,12 @@
         android:id="@+id/ForgotPasswordTextView"
         style="@style/TextBox.ReadOnly"
         android:gravity="center"
-        android:paddingTop="50dp" />
+        android:layout_margin="50dp" />
     <Button
         android:text="@string/Register"
         android:layout_height="wrap_content"
         android:id="@+id/RegisterButton"
         style="@style/Button"
-        android:layout_width="150dp" />
+        android:layout_width="150dp"
+        android:visibility="gone" />
 </LinearLayout>

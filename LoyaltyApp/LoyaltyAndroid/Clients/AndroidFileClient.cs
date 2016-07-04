@@ -10,11 +10,12 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using LoyaltyAppLibrary.App;
+using Anatoli.Framework.AnatoliBase;
 using System.IO;
 
 namespace LoyaltyAndroid.Clients
 {
-    public class AndroidFileClient : IFileClient
+    public class AndroidFileClient : IFileIO
     {
         public string GetDataLoction()
         {

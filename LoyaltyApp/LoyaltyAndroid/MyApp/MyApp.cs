@@ -13,6 +13,7 @@ using Android.Support.V7.App;
 using Android.Support.V4.Widget;
 using LoyaltyAppLibrary.App;
 using LoyaltyAndroid.Fragments;
+using Anatoli.Framework.AnatoliBase;
 
 namespace LoyaltyAndroid.MyApp
 {
@@ -57,13 +58,13 @@ namespace LoyaltyAndroid.MyApp
                 else if (_oldVersionCode == DOESNT_EXIST)
                 {
                     // TODO This is a new install (or the user cleared the shared preferences)
-                    Client.GetInstance().DbClient.Create();
+                    AnatoliClient.GetInstance().DbClient.Create();
                     prefs.Edit().PutInt(PREF_VERSION_CODE_KEY, _currentVersionCode).Commit();
                 }
                 else if (_currentVersionCode > _oldVersionCode)
                 {
                     // TODO This is an upgrade
-                    Client.GetInstance().DbClient.Upgrade(_currentVersionCode, _oldVersionCode);
+                    AnatoliClient.GetInstance().DbClient.Upgrade(_currentVersionCode, _oldVersionCode);
                     prefs.Edit().PutInt(PREF_VERSION_CODE_KEY, _currentVersionCode).Commit();
                 }
                 prefs.Edit().PutInt(PREF_VERSION_CODE_KEY, _currentVersionCode).Commit();

@@ -35,19 +35,14 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <Folder Include="Manager\" />
     <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App\Client.cs" />
-    <Compile Include="App\Configuration.cs" />
-    <Compile Include="App\Crypto.cs" />
-    <Compile Include="App\Extensions.cs" />
-    <Compile Include="App\IFileClient.cs" />
-    <Compile Include="App\InputValidator.cs" />
-    <Compile Include="App\SqliteClient.cs" />
-    <Compile Include="App\WebClient.cs" />
-    <Compile Include="FrameWork\BaseManager.cs" />
-    <Compile Include="FrameWork\BaseModel.cs" />
+    <Compile Include="App\Validator\InputValidator.cs" />
+    <Compile Include="App\Validator\EmailValidator.cs" />
+    <Compile Include="App\Validator\PhoneValidator.cs" />
+    <Compile Include="App\Validator\UsernameValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

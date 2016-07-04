@@ -11,10 +11,11 @@ using Android.Views;
 using Android.Widget;
 using LoyaltyAppLibrary.App;
 using Android.Net;
+using Anatoli.Framework.AnatoliBase;
 
 namespace LoyaltyAndroid.Clients
 {
-    public class AndroidWebClient : WebClient
+    public class AndroidWebClient : AnatoliWebClient
     {
         ConnectivityManager _cm;
         public AndroidWebClient(ConnectivityManager cm)

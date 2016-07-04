@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Dialog">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserNameEditText"
+        style="@style/TextBox"
+        android:hint="@string/UserName"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EmailEditText"
+        style="@style/TextBox"
+        android:hint="@string/Email"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PasswordEditText"
+        style="@style/TextBox"
+        android:hint="@string/Password"
+        android:password="true"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:singleLine="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ShowPasswordCheckBox"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:text="@string/ShowPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ShowPasswordCheckBox"
+            android:id="@+id/textView1"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <Button
+        android:text="@string/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegisterButton"
+        style="@style/Button" />
+</LinearLayout>

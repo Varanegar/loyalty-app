@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="لطفا برای دریافت کد رمز صبوری کنید"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MsgTextView"
+        style="@style/TextBox.ReadOnly" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CodeEditText"
+        android:hint="@string/RecievedPassCode"
+        style="@style/TextBox" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PassEditText"
+        android:hint="@string/NewPassword"
+        style="@style/TextBox" />
+    <Button
+        android:text="@string/Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SendButton"
+        style="@style/Button" />
+</LinearLayout>
