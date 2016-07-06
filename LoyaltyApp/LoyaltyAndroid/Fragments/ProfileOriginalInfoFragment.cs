@@ -14,11 +14,11 @@ using LoyaltyAndroid.MyApp;
 
 namespace LoyaltyAndroid.Fragments
 {
-    public class Profile2Fragment : CustomeFragment
+    public class ProfileOriginalInfoFragment : CustomeFragment
     {
-        public Profile2Fragment()
+        public ProfileOriginalInfoFragment()
         {
-            Title = "مشخصات تکمیلی";
+            Title = "مشخصات عمومی";
         }
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -30,10 +30,9 @@ namespace LoyaltyAndroid.Fragments
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Use this to return your custom view for this Fragment
-            var view = inflater.Inflate(Resource.Layout.Profile2Layout, container, false);
+            var view = inflater.Inflate(Resource.Layout.ProfileOriginalInfoFragmentLayout, container, false);
 
             return view;
         }
-        
     }
 }

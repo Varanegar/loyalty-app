@@ -14,11 +14,11 @@ using LoyaltyAndroid.MyApp;
 
 namespace LoyaltyAndroid.Fragments
 {
-    public class Profile3Fragment : CustomeFragment
+    public class ProfileAddressFragment : CustomeFragment
     {
-        public Profile3Fragment()
+        public ProfileAddressFragment()
         {
-            Title = "حساب کاربری";
+            Title = "آدرس";
         }
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -30,13 +30,8 @@ namespace LoyaltyAndroid.Fragments
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Use this to return your custom view for this Fragment
-            var view = inflater.Inflate(Resource.Layout.Profile3Layout, container, false);
-            var changePassTextView = view.FindViewById<TextView>(Resource.Id.ChangePassTextView);
-            changePassTextView.Click += delegate
-            {
-                ChangePasswordDialogFragment fragment = new ChangePasswordDialogFragment();
-                fragment.Show(FragmentManager, "ChangePasswordDialogFragment");
-            };
+            var view = inflater.Inflate(Resource.Layout.ProfileAddressLayout, container, false);
+
             return view;
         }
     }

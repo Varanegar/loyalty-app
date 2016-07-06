@@ -105,9 +105,10 @@
     <Compile Include="Fragments\ForgotPasswordDialog.cs" />
     <Compile Include="Fragments\HomeFragment.cs" />
     <Compile Include="Fragments\LoginDialogFragment.cs" />
-    <Compile Include="Fragments\Profile1Fragment.cs" />
-    <Compile Include="Fragments\Profile2Fragment.cs" />
-    <Compile Include="Fragments\Profile3Fragment.cs" />
+    <Compile Include="Fragments\ProfileOriginalInfoFragment.cs" />
+    <Compile Include="Fragments\ProfileOtherInfoFragment.cs" />
+    <Compile Include="Fragments\ProfileAccountFragment.cs" />
+    <Compile Include="Fragments\ProfileAddressFragment.cs" />
     <Compile Include="Fragments\ProfileFragment.cs" />
     <Compile Include="Fragments\RegisterDialogFragment.cs" />
     <Compile Include="MyApp\CustomeFragment.cs" />
@@ -146,19 +147,22 @@
     <AndroidResource Include="Resources\layout\ChangePassWithCodeDialogLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Profile1Layout.axml">
+    <AndroidResource Include="Resources\layout\ProfileOriginalInfoFragmentLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ProfileLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Profile2Layout.axml">
+    <AndroidResource Include="Resources\layout\ProfileOtherInfoLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Profile3Layout.axml">
+    <AndroidResource Include="Resources\layout\ProfileAccountLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ChangePasswordDialogFragmentLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ProfileAddressLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

@@ -57,9 +57,10 @@ namespace LoyaltyAndroid.Fragments
         public ProfileFragmentAdapter(Android.Support.V4.App.FragmentManager manager) : base(manager)
         {
             _fragments = new List<CustomeFragment>();
-            _fragments.Add(new Profile3Fragment());
-            _fragments.Add(new Profile2Fragment());
-            _fragments.Add(new Profile1Fragment());
+            _fragments.Add(new ProfileAccountFragment());
+            _fragments.Add(new ProfileAddressFragment());
+            _fragments.Add(new ProfileOtherInfoFragment());
+            _fragments.Add(new ProfileOriginalInfoFragment());
         }
         public override int Count
         {

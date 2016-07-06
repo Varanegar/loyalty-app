@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TextView
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/RLevel1TextView"
+           android:hint="@string/Country"
+           style="@style/ComboBox" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/RLevel2TextView"
+      android:hint="@string/City"
+      style="@style/ComboBox" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/RLevel3TextView"
+      android:hint="@string/Zone"
+      style="@style/ComboBox" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/RLevel4TextView"
+      android:hint="@string/District"
+      style="@style/ComboBox" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/AddressEditText"
+      android:hint="@string/Address"
+      style="@style/TextBox" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/PostalCodeEditText"
+      android:hint="@string/PostalCode"
+      style="@style/TextBox" />
+</LinearLayout>

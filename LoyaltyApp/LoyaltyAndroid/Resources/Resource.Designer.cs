@@ -1828,47 +1828,47 @@ namespace LoyaltyAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0600ae
-			public const int AddressEditText = 2131099822;
+			// aapt resource value: 0x7f06009d
+			public const int AddressEditText = 2131099805;
 			
-			// aapt resource value: 0x7f0600a0
-			public const int CartNumberEditText = 2131099808;
+			// aapt resource value: 0x7f0600aa
+			public const int CartNumberEditText = 2131099818;
 			
-			// aapt resource value: 0x7f0600a1
-			public const int CartTypeEditText = 2131099809;
+			// aapt resource value: 0x7f0600ab
+			public const int CartTypeEditText = 2131099819;
 			
-			// aapt resource value: 0x7f0600b8
-			public const int ChangePassTextView = 2131099832;
+			// aapt resource value: 0x7f060098
+			public const int ChangePassTextView = 2131099800;
 			
 			// aapt resource value: 0x7f06006d
 			public const int CodeEditText = 2131099757;
 			
-			// aapt resource value: 0x7f060099
-			public const int CompanyCheckBox = 2131099801;
+			// aapt resource value: 0x7f0600a3
+			public const int CompanyCheckBox = 2131099811;
 			
-			// aapt resource value: 0x7f06009c
-			public const int CompanyNameEditText = 2131099804;
+			// aapt resource value: 0x7f0600a6
+			public const int CompanyNameEditText = 2131099814;
 			
-			// aapt resource value: 0x7f06009b
-			public const int CustomerCodeEditText = 2131099803;
+			// aapt resource value: 0x7f0600a5
+			public const int CustomerCodeEditText = 2131099813;
 			
-			// aapt resource value: 0x7f0600b0
-			public const int CustomerGroupEditText = 2131099824;
+			// aapt resource value: 0x7f0600b4
+			public const int CustomerGroupEditText = 2131099828;
 			
-			// aapt resource value: 0x7f0600a2
-			public const int CustomerLevelEditText = 2131099810;
+			// aapt resource value: 0x7f0600ac
+			public const int CustomerLevelEditText = 2131099820;
 			
-			// aapt resource value: 0x7f060097
-			public const int CustomerTypeTextView = 2131099799;
+			// aapt resource value: 0x7f0600a1
+			public const int CustomerTypeTextView = 2131099809;
 			
-			// aapt resource value: 0x7f0600a8
-			public const int EmailAddressEditText = 2131099816;
+			// aapt resource value: 0x7f0600b2
+			public const int EmailAddressEditText = 2131099826;
 			
 			// aapt resource value: 0x7f0600bb
 			public const int EmailEditText = 2131099835;
 			
-			// aapt resource value: 0x7f0600a5
-			public const int FemaleCheckBox = 2131099813;
+			// aapt resource value: 0x7f0600af
+			public const int FemaleCheckBox = 2131099823;
 			
 			// aapt resource value: 0x7f060082
 			public const int ForgotPasswordTextView = 2131099778;
@@ -1876,38 +1876,38 @@ namespace LoyaltyAndroid
 			// aapt resource value: 0x7f060088
 			public const int IconImageView = 2131099784;
 			
-			// aapt resource value: 0x7f06009e
-			public const int LastNameEditText = 2131099806;
+			// aapt resource value: 0x7f0600a8
+			public const int LastNameEditText = 2131099816;
 			
 			// aapt resource value: 0x7f060081
 			public const int LoginButton = 2131099777;
 			
-			// aapt resource value: 0x7f0600b7
-			public const int LogoutTextView = 2131099831;
+			// aapt resource value: 0x7f060097
+			public const int LogoutTextView = 2131099799;
 			
-			// aapt resource value: 0x7f0600a6
-			public const int MaleCheckBox = 2131099814;
+			// aapt resource value: 0x7f0600b0
+			public const int MaleCheckBox = 2131099824;
 			
 			// aapt resource value: 0x7f06006a
 			public const int MenuButton = 2131099754;
 			
-			// aapt resource value: 0x7f06009f
-			public const int MobileEditText = 2131099807;
+			// aapt resource value: 0x7f0600a9
+			public const int MobileEditText = 2131099817;
 			
 			// aapt resource value: 0x7f06006c
 			public const int MsgTextView = 2131099756;
 			
-			// aapt resource value: 0x7f06009d
-			public const int NameEditText = 2131099805;
-			
 			// aapt resource value: 0x7f0600a7
-			public const int NationalCodeEditText = 2131099815;
+			public const int NameEditText = 2131099815;
+			
+			// aapt resource value: 0x7f0600b1
+			public const int NationalCodeEditText = 2131099825;
 			
 			// aapt resource value: 0x7f060071
 			public const int NewPasswordEditText = 2131099761;
 			
-			// aapt resource value: 0x7f0600b3
-			public const int NewsLetterCheckBox = 2131099827;
+			// aapt resource value: 0x7f0600b7
+			public const int NewsLetterCheckBox = 2131099831;
 			
 			// aapt resource value: 0x7f060074
 			public const int OkButton = 2131099764;
@@ -1921,35 +1921,35 @@ namespace LoyaltyAndroid
 			// aapt resource value: 0x7f060080
 			public const int PasswordEditText = 2131099776;
 			
-			// aapt resource value: 0x7f060098
-			public const int PersonCheckBox = 2131099800;
+			// aapt resource value: 0x7f0600a2
+			public const int PersonCheckBox = 2131099810;
 			
 			// aapt resource value: 0x7f06007e
 			public const int PhoneNumberEditText = 2131099774;
 			
-			// aapt resource value: 0x7f0600af
-			public const int PostalCodeEditText = 2131099823;
+			// aapt resource value: 0x7f06009e
+			public const int PostalCodeEditText = 2131099806;
 			
-			// aapt resource value: 0x7f0600b1
-			public const int PresenterTextView = 2131099825;
+			// aapt resource value: 0x7f0600b5
+			public const int PresenterTextView = 2131099829;
 			
-			// aapt resource value: 0x7f0600b9
-			public const int ProfileTabLayout = 2131099833;
+			// aapt resource value: 0x7f06009f
+			public const int ProfileTabLayout = 2131099807;
 			
-			// aapt resource value: 0x7f0600ba
-			public const int ProfileViewPager = 2131099834;
+			// aapt resource value: 0x7f0600a0
+			public const int ProfileViewPager = 2131099808;
 			
-			// aapt resource value: 0x7f0600aa
-			public const int RLevel1TextView = 2131099818;
+			// aapt resource value: 0x7f060099
+			public const int RLevel1TextView = 2131099801;
 			
-			// aapt resource value: 0x7f0600ab
-			public const int RLevel2TextView = 2131099819;
+			// aapt resource value: 0x7f06009a
+			public const int RLevel2TextView = 2131099802;
 			
-			// aapt resource value: 0x7f0600ac
-			public const int RLevel3TextView = 2131099820;
+			// aapt resource value: 0x7f06009b
+			public const int RLevel3TextView = 2131099803;
 			
-			// aapt resource value: 0x7f0600ad
-			public const int RLevel4TextView = 2131099821;
+			// aapt resource value: 0x7f06009c
+			public const int RLevel4TextView = 2131099804;
 			
 			// aapt resource value: 0x7f060083
 			public const int RegisterButton = 2131099779;
@@ -1960,11 +1960,11 @@ namespace LoyaltyAndroid
 			// aapt resource value: 0x7f060072
 			public const int ShowPasswordCheckBox = 2131099762;
 			
-			// aapt resource value: 0x7f0600b5
-			public const int SmsCheckBox = 2131099829;
+			// aapt resource value: 0x7f0600b9
+			public const int SmsCheckBox = 2131099833;
 			
-			// aapt resource value: 0x7f0600a9
-			public const int TelEditText = 2131099817;
+			// aapt resource value: 0x7f0600b3
+			public const int TelEditText = 2131099827;
 			
 			// aapt resource value: 0x7f06006b
 			public const int TitleTextView = 2131099755;
@@ -2173,8 +2173,8 @@ namespace LoyaltyAndroid
 			// aapt resource value: 0x7f060093
 			public const int line3 = 2131099795;
 			
-			// aapt resource value: 0x7f0600a4
-			public const int linearLayout1 = 2131099812;
+			// aapt resource value: 0x7f0600ae
+			public const int linearLayout1 = 2131099822;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
@@ -2227,8 +2227,8 @@ namespace LoyaltyAndroid
 			// aapt resource value: 0x7f060069
 			public const int relativeLayout1 = 2131099753;
 			
-			// aapt resource value: 0x7f0600b2
-			public const int relativeLayout2 = 2131099826;
+			// aapt resource value: 0x7f0600b6
+			public const int relativeLayout2 = 2131099830;
 			
 			// aapt resource value: 0x7f060030
 			public const int right = 2131099696;
@@ -2248,8 +2248,8 @@ namespace LoyaltyAndroid
 			// aapt resource value: 0x7f06004c
 			public const int scrollView = 2131099724;
 			
-			// aapt resource value: 0x7f0600a3
-			public const int scrollView1 = 2131099811;
+			// aapt resource value: 0x7f0600ad
+			public const int scrollView1 = 2131099821;
 			
 			// aapt resource value: 0x7f060039
 			public const int scrollable = 2131099705;
@@ -2347,14 +2347,14 @@ namespace LoyaltyAndroid
 			// aapt resource value: 0x7f060073
 			public const int textView1 = 2131099763;
 			
-			// aapt resource value: 0x7f06009a
-			public const int textView2 = 2131099802;
+			// aapt resource value: 0x7f0600a4
+			public const int textView2 = 2131099812;
 			
-			// aapt resource value: 0x7f0600b4
-			public const int textView3 = 2131099828;
+			// aapt resource value: 0x7f0600b8
+			public const int textView3 = 2131099832;
 			
-			// aapt resource value: 0x7f0600b6
-			public const int textView4 = 2131099830;
+			// aapt resource value: 0x7f0600ba
+			public const int textView4 = 2131099834;
 			
 			// aapt resource value: 0x7f060090
 			public const int time = 2131099792;
@@ -2602,34 +2602,37 @@ namespace LoyaltyAndroid
 			public const int notification_template_part_time = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int Profile1Layout = 2130903093;
+			public const int ProfileAccountLayout = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int Profile2Layout = 2130903094;
+			public const int ProfileAddressLayout = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int Profile3Layout = 2130903095;
+			public const int ProfileLayout = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int ProfileLayout = 2130903096;
+			public const int ProfileOriginalInfoFragmentLayout = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int RegisterDialogLayout = 2130903097;
+			public const int ProfileOtherInfoLayout = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int select_dialog_item_material = 2130903098;
+			public const int RegisterDialogLayout = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int select_dialog_multichoice_material = 2130903099;
+			public const int select_dialog_item_material = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int select_dialog_singlechoice_material = 2130903100;
+			public const int select_dialog_multichoice_material = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int support_simple_spinner_dropdown_item = 2130903101;
+			public const int select_dialog_singlechoice_material = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int Toolbar = 2130903102;
+			public const int support_simple_spinner_dropdown_item = 2130903102;
+			
+			// aapt resource value: 0x7f03003f
+			public const int Toolbar = 2130903103;
 			
 			static Layout()
 			{

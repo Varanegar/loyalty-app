@@ -76,46 +76,6 @@
             p1:id="@+id/TelEditText"
             p1:hint="@string/TelNumber"
             style="@style/TextBox" />
-        <TextView
-            p1:textAppearance="?android:attr/textAppearanceSmall"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/RLevel1TextView"
-            p1:hint="@string/Country"
-            style="@style/ComboBox" />
-        <TextView
-            p1:textAppearance="?android:attr/textAppearanceSmall"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/RLevel2TextView"
-            p1:hint="@string/City"
-            style="@style/ComboBox" />
-        <TextView
-            p1:textAppearance="?android:attr/textAppearanceSmall"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/RLevel3TextView"
-            p1:hint="@string/Zone"
-            style="@style/ComboBox" />
-        <TextView
-            p1:textAppearance="?android:attr/textAppearanceSmall"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/RLevel4TextView"
-            p1:hint="@string/District"
-            style="@style/ComboBox" />
-        <EditText
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/AddressEditText"
-            p1:hint="@string/Address"
-            style="@style/TextBox" />
-        <EditText
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/PostalCodeEditText"
-            p1:hint="@string/PostalCode"
-            style="@style/TextBox" />
         <EditText
             p1:layout_width="match_parent"
             p1:layout_height="wrap_content"
