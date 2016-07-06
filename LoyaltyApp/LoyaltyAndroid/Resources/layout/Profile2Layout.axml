@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/scrollView1">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout1">
+        <RelativeLayout
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/relativeLayout1"
+            p1:paddingTop="5dp"
+            p1:paddingBottom="5dp"
+            p1:padding="5dp">
+            <CheckBox
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/FemaleCheckBox"
+                p1:layout_alignParentRight="true"
+                p1:layout_centerVertical="true" />
+            <TextView
+                p1:text="@string/Female"
+                p1:textAppearance="?android:attr/textAppearanceSmall"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_toLeftOf="@id/FemaleCheckBox"
+                p1:id="@+id/textView1"
+                p1:layout_centerVertical="true" />
+            <CheckBox
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_toLeftOf="@id/textView1"
+                p1:id="@+id/MaleCheckBox"
+                p1:layout_marginRight="20dp"
+                p1:layout_centerVertical="true" />
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceSmall"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_toLeftOf="@id/MaleCheckBox"
+                p1:id="@+id/textView2"
+                p1:text="@string/Male"
+                p1:layout_centerVertical="true" />
+        </RelativeLayout>
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/NationalCodeEditText"
+            p1:hint="@string/NationalCode"
+            style="@style/TextBox" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/EmailAddressEditText"
+            p1:hint="@string/EmailAddress"
+            style="@style/TextBox" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/UserNameEditText"
+            p1:hint="@string/UserName"
+            style="@style/TextBox"
+            p1:enabled="false" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/TelEditText"
+            p1:hint="@string/TelNumber"
+            style="@style/TextBox" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceSmall"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/RLevel1TextView"
+            p1:hint="@string/Country"
+            style="@style/ComboBox" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceSmall"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/RLevel2TextView"
+            p1:hint="@string/City"
+            style="@style/ComboBox" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceSmall"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/RLevel3TextView"
+            p1:hint="@string/Zone"
+            style="@style/ComboBox" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceSmall"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/RLevel4TextView"
+            p1:hint="@string/District"
+            style="@style/ComboBox" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/AddressEditText"
+            p1:hint="@string/Address"
+            style="@style/TextBox" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/PostalCodeEditText"
+            p1:hint="@string/PostalCode"
+            style="@style/TextBox" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/CustomerGroupEditText"
+            p1:hint="@string/CustomerGroup"
+            style="@style/TextBox"
+            p1:enabled="false" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceSmall"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/PresenterTextView"
+            p1:hint="@string/Presenter"
+            style="@style/ComboBox" />
+        <RelativeLayout
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/relativeLayout2"
+            p1:padding="5dp">
+            <CheckBox
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/NewsLetterCheckBox"
+                p1:layout_alignParentRight="true"
+                p1:layout_centerVertical="true" />
+            <TextView
+                p1:text="@string/NewsLetter"
+                p1:textAppearance="?android:attr/textAppearanceSmall"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_toLeftOf="@id/NewsLetterCheckBox"
+                p1:id="@+id/textView3"
+                p1:layout_centerVertical="true" />
+            <CheckBox
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_toLeftOf="@id/textView3"
+                p1:id="@+id/SmsCheckBox"
+                p1:layout_centerVertical="true"
+                p1:layout_marginRight="20dp" />
+            <TextView
+                p1:text="@string/SmsAds"
+                p1:textAppearance="?android:attr/textAppearanceSmall"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_toLeftOf="@id/SmsCheckBox"
+                p1:id="@+id/textView4"
+                p1:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

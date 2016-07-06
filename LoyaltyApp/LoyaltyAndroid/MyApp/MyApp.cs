@@ -87,7 +87,7 @@ namespace LoyaltyAndroid.MyApp
                 return _oldVersionCode;
             }
         }
-        public void PushFragment<FragmentType>(FragmentType fragment, Tuple<string, string> parameter, bool force = false, bool allowStateLoss = false) where FragmentType : CustomeFragment
+        public void PushFragment(CustomeFragment fragment, Tuple<string, string> parameter, bool force = false, bool allowStateLoss = false)
         {
             if (fragment == null)
             {
@@ -98,7 +98,7 @@ namespace LoyaltyAndroid.MyApp
             fragment.Arguments = bundle;
             PushFragment(fragment, force, allowStateLoss);
         }
-        public void PushFragment<FragmentType>(FragmentType fragment, bool force = false, bool allowStateLoss = false) where FragmentType : CustomeFragment
+        public void PushFragment(CustomeFragment fragment, bool force = false, bool allowStateLoss = false)
         {
             if (fragment == null)
             {
@@ -120,6 +120,7 @@ namespace LoyaltyAndroid.MyApp
                 transaction.CommitAllowingStateLoss();
             else
                 transaction.Commit();
+            Title = fragment.Title;
         }
         public Android.Support.V4.App.Fragment GetCurrentFragment()
         {
@@ -138,7 +139,7 @@ namespace LoyaltyAndroid.MyApp
             set { _titleTextView.Text = value; }
         }
 
-        public bool IsUserLoggedIn { get { return false; } }
+        public bool IsUserLoggedIn { get { return true; } }
 
         List<MenuItem> _menuItems;
         public void RefreshMenu()
@@ -194,7 +195,9 @@ namespace LoyaltyAndroid.MyApp
                 }
                 else if (item.Type == MenuItem.MenuType.Profile)
                 {
-
+                    _drawerLayout.CloseDrawer(_drawerListView);
+                    ProfileFragment profileFragment = new ProfileFragment();
+                    PushFragment(profileFragment);
                 }
                 else if (item.Type == MenuItem.MenuType.About)
                 {

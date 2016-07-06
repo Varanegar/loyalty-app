@@ -15,11 +15,5 @@ namespace LoyaltyAndroid.MyApp
     public class CustomeFragment : Android.Support.V4.App.Fragment
     {
         public string Title;
-        public override void OnStart()
-        {
-            base.OnStart();
-            MyApp.GetInstance().Title = Title;
-        }
-
     }
 }

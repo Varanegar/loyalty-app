@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/CustomerTypeTextView"
+                android:layout_alignParentRight="true"
+                android:text="@string/CustomerType"
+                style="@style/TextBox"
+                android:layout_centerVertical="true" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/CustomerTypeTextView"
+                android:id="@+id/PersonCheckBox"
+                android:layout_centerVertical="true"
+                android:enabled="false" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/CompanyCheckBox"
+                android:layout_toLeftOf="@id/textView1"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:enabled="false" />
+            <TextView
+                android:text="@string/Person"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/PersonCheckBox"
+                android:id="@+id/textView1"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:text="@string/Company"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/CompanyCheckBox"
+                android:id="@+id/textView2"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CustomerCodeEditText"
+            android:hint="@string/CustomerCode"
+            style="@style/TextBox"
+            android:enabled="false" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CompanyNameEditText"
+            android:hint="@string/CompanyName"
+            style="@style/TextBox" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/NameEditText"
+            style="@style/TextBox"
+            android:hint="@string/Name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LastNameEditText"
+            style="@style/TextBox"
+            android:hint="@string/LastName" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MobileEditText"
+            android:hint="@string/MobileNumber"
+            style="@style/TextBox" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CartNumberEditText"
+            android:hint="@string/CartNumber"
+            style="@style/TextBox"
+            android:enabled="false" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CartTypeEditText"
+            android:hint="@string/CartType"
+            style="@style/TextBox"
+            android:enabled="false" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CustomerLevelEditText"
+            android:hint="@string/CustomerLevel"
+            style="@style/TextBox"
+            android:enabled="false" />
+    </LinearLayout>
+</ScrollView>

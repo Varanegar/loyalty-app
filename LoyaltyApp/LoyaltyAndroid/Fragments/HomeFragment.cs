@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,5 +15,9 @@ namespace LoyaltyAndroid.Fragments
 {
     public class HomeFragment : CustomeFragment
     {
+        public HomeFragment()
+        {
+            Title = "صفحه خانگی";
+        }
     }
 }

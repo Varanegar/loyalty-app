@@ -67,7 +67,10 @@ namespace LoyaltyAndroid.MyApp
                 Finish();
             }
             else
+            {
                 base.OnBackPressed();
+                MyApp.GetInstance().Title = (MyApp.GetInstance().GetCurrentFragment() as CustomeFragment).Title;
+            }
         }
     }
 }
