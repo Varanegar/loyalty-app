@@ -36,13 +36,13 @@
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
     <Folder Include="Manager\" />
-    <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App\Validator\InputValidator.cs" />
     <Compile Include="App\Validator\EmailValidator.cs" />
     <Compile Include="App\Validator\PhoneValidator.cs" />
     <Compile Include="App\Validator\UsernameValidator.cs" />
+    <Compile Include="Model\FinancialActivityModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +64,12 @@
     <Reference Include="Validation">
       <HintPath>Packages\Validation.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\anatoli\anatoli-device\Source\Device\Anatoli\Anatoli.csproj">
+      <Project>{7652423F-F5E3-4A1A-958F-7331C42AE409}</Project>
+      <Name>Anatoli</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

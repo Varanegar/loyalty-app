@@ -147,11 +147,33 @@ namespace LoyaltyAndroid.MyApp
 
             _menuItems = new List<MenuItem>();
             if (IsUserLoggedIn)
+            {
                 _menuItems.Add(new MenuItem()
                 {
                     Title = _context.Resources.GetString(Resource.String.Profile),
                     Type = MenuItem.MenuType.Profile
                 });
+                _menuItems.Add(new MenuItem()
+                {
+                    Title = _context.Resources.GetString(Resource.String.NonFinancialActivitues),
+                    Type = MenuItem.MenuType.NonFinancialActivitues
+                });
+                _menuItems.Add(new MenuItem()
+                {
+                    Title = _context.Resources.GetString(Resource.String.FinancialActivitues),
+                    Type = MenuItem.MenuType.FinancialActivitues
+                });
+                _menuItems.Add(new MenuItem()
+                {
+                    Title = _context.Resources.GetString(Resource.String.ClubActivities),
+                    Type = MenuItem.MenuType.ClubActivities
+                });
+                _menuItems.Add(new MenuItem()
+                {
+                    Title = _context.Resources.GetString(Resource.String.Dashboard),
+                    Type = MenuItem.MenuType.Dashboard
+                });
+            }
             else
                 _menuItems.Add(new MenuItem()
                 {
@@ -198,6 +220,12 @@ namespace LoyaltyAndroid.MyApp
                     _drawerLayout.CloseDrawer(_drawerListView);
                     ProfileFragment profileFragment = new ProfileFragment();
                     PushFragment(profileFragment);
+                }
+                else if (item.Type == MenuItem.MenuType.FinancialActivitues)
+                {
+                    _drawerLayout.CloseDrawer(_drawerListView);
+                    FinancialActivitiesFragment financialActivitiesFragment = new FinancialActivitiesFragment();
+                    PushFragment(financialActivitiesFragment);
                 }
                 else if (item.Type == MenuItem.MenuType.About)
                 {

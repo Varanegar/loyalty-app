@@ -68,4 +68,19 @@
   <string name="Logout">خروج از حساب کاربری</string>
   <string name="ChangePass">تغییر کلمه عبور</string>
   <string name="OldPassword">کلمه عبور فعلی</string>
+  <string name="NonFinancialActivitues">فعالیت های غیر مالی من</string>
+  <string name="FinancialActivitues">فعالیت های مالی من</string>
+  <string name="ClubActivities">فعالیت های باشگاهی من</string>
+  <string name="Dashboard">داشبورد من</string>
+  <string name="RowNumber">ردیف</string>
+  <string name="Activity">فعالیت: </string>
+  <string name="Price">مبلغ: </string>
+  <string name="Location">محل فعالیت: </string>
+  <string name="Date">تاریخ: </string>
+  <string name="Description">توضیحات: </string>
+  <string name="Discount">تخفیف: </string>
+  <string name="User">کاربر: </string>
+  <string name="Terminal">ترمینال: </string>
+  <string name="NetAmount">مبلغ خالص: </string>
+  <string name="GrossAmount">مبلغ ناخالص: </string>
 </resources>

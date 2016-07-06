@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="horizontal"
+    p1:layout_width="match_parent"
+    p1:layout_height="wrap_content"
+    p1:id="@+id/linearLayout1"
+    p1:weightSum="9">
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceSmall"
+        p1:layout_width="0dp"
+        p1:layout_height="40dp"
+        p1:id="@+id/ItemLocationTextView"
+        p1:layout_weight="2"
+        p1:gravity="center"
+        p1:singleLine="true" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceSmall"
+        p1:layout_width="0dp"
+        p1:layout_height="40dp"
+        p1:id="@+id/ItemPriceTextView"
+        p1:layout_weight="2"
+        p1:gravity="center"
+        p1:singleLine="true" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceSmall"
+        p1:layout_width="0dp"
+        p1:layout_height="40dp"
+        p1:id="@+id/ItemActivityTextView"
+        p1:layout_weight="2"
+        p1:gravity="center"
+        p1:singleLine="true" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceSmall"
+        p1:layout_width="0dp"
+        p1:layout_height="40dp"
+        p1:id="@+id/ItemDateTextView"
+        p1:layout_weight="2"
+        p1:gravity="center"
+        p1:singleLine="true" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceSmall"
+        p1:layout_width="0dp"
+        p1:layout_height="40dp"
+        p1:id="@+id/ItemRowTextView"
+        p1:layout_weight="1"
+        p1:gravity="center"
+        p1:singleLine="true" />
+</LinearLayout>

@@ -24,7 +24,11 @@ namespace LoyaltyAndroid.MyApp
             Logout,
             SetupPage,
             About,
-            Profile
+            Profile,
+            NonFinancialActivitues,
+            FinancialActivitues,
+            ClubActivities,
+            Dashboard
         }
     }
     public class MenuAdapter : BaseAdapter<MenuItem>

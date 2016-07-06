@@ -94,6 +94,9 @@
       <HintPath>..\packages\Xamarin.Android.Support.Vector.Drawable.23.2.1\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Xamarin.Controls.BarChart.Android">
+      <HintPath>Packages\Xamarin.Controls.BarChart.Android.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clients\AndroidFileClient.cs" />
@@ -102,6 +105,8 @@
     <Compile Include="Fragments\ChangePassWithCodeDialog.cs" />
     <Compile Include="Fragments\ChangePasswordDialogFragment.cs" />
     <Compile Include="Fragments\ConfirmUserDialogFragment.cs" />
+    <Compile Include="Fragments\FinancialActivitiesFragment.cs" />
+    <Compile Include="Fragments\FinancialActivityDetailFragment.cs" />
     <Compile Include="Fragments\ForgotPasswordDialog.cs" />
     <Compile Include="Fragments\HomeFragment.cs" />
     <Compile Include="Fragments\LoginDialogFragment.cs" />
@@ -163,6 +168,15 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ProfileAddressLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FinancialActivitiesLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FinancialItemsSummaryLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FinancialActivityDetailLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
