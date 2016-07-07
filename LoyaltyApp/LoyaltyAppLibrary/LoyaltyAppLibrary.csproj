@@ -43,6 +43,7 @@
     <Compile Include="App\Validator\PhoneValidator.cs" />
     <Compile Include="App\Validator\UsernameValidator.cs" />
     <Compile Include="Model\FinancialActivityModel.cs" />
+    <Compile Include="Model\NonFinancialActivityModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

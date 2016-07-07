@@ -227,6 +227,12 @@ namespace LoyaltyAndroid.MyApp
                     FinancialActivitiesFragment financialActivitiesFragment = new FinancialActivitiesFragment();
                     PushFragment(financialActivitiesFragment);
                 }
+                else if (item.Type == MenuItem.MenuType.NonFinancialActivitues)
+                {
+                    _drawerLayout.CloseDrawer(_drawerListView);
+                    NonFinancialActivitiesFragment nonFinancialActivitiesFragment = new NonFinancialActivitiesFragment();
+                    PushFragment(nonFinancialActivitiesFragment);
+                }
                 else if (item.Type == MenuItem.MenuType.About)
                 {
                     _drawerLayout.CloseDrawer(_drawerListView);

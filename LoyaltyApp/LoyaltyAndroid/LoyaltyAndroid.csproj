@@ -110,6 +110,8 @@
     <Compile Include="Fragments\ForgotPasswordDialog.cs" />
     <Compile Include="Fragments\HomeFragment.cs" />
     <Compile Include="Fragments\LoginDialogFragment.cs" />
+    <Compile Include="Fragments\NonFinancialActivitiesFragment.cs" />
+    <Compile Include="Fragments\NonFinancialActivityDetailFragment.cs" />
     <Compile Include="Fragments\ProfileOriginalInfoFragment.cs" />
     <Compile Include="Fragments\ProfileOtherInfoFragment.cs" />
     <Compile Include="Fragments\ProfileAccountFragment.cs" />
@@ -177,6 +179,15 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\FinancialActivityDetailLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\NonFinancialActivitiesLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\NonFinancialActivitySummaryLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\NonFinancialActivityDetailLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

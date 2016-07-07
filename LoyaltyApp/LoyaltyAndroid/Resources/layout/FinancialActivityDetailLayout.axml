@@ -231,7 +231,7 @@
                 p1:layout_width="match_parent"
                 p1:layout_height="80dp"
                 p1:id="@+id/DescriptionTextView"
-                p1:gravity="right"
+                p1:gravity="right|top"
                 p1:layout_marginRight="10dp"
                 style="@style/TextBox.ReadOnly"
                 p1:layout_below="@id/textView17"

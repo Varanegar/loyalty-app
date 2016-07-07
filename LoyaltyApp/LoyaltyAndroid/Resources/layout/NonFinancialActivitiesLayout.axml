@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:weightSum="7">
+        <TextView
+            android:text="@string/Location"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:layout_weight="2"
+            android:gravity="center" />
+        <TextView
+            android:text="@string/Activity"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:layout_weight="2"
+            android:gravity="center" />
+        <TextView
+            android:text="@string/Date"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:layout_weight="2"
+            android:gravity="center" />
+        <TextView
+            android:text="@string/RowNumber"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView4"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ItemsListView" />
+</LinearLayout>
