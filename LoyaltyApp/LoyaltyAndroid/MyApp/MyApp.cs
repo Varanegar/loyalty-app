@@ -233,6 +233,12 @@ namespace LoyaltyAndroid.MyApp
                     NonFinancialActivitiesFragment nonFinancialActivitiesFragment = new NonFinancialActivitiesFragment();
                     PushFragment(nonFinancialActivitiesFragment);
                 }
+                else if (item.Type == MenuItem.MenuType.ClubActivities)
+                {
+                    _drawerLayout.CloseDrawer(_drawerListView);
+                    ClubActivitiesFragment culbActivitiesFragment = new ClubActivitiesFragment();
+                    PushFragment(culbActivitiesFragment);
+                }
                 else if (item.Type == MenuItem.MenuType.About)
                 {
                     _drawerLayout.CloseDrawer(_drawerListView);

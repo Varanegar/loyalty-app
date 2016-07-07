@@ -104,6 +104,7 @@
     <Compile Include="Clients\AndroidWebClient.cs" />
     <Compile Include="Fragments\ChangePassWithCodeDialog.cs" />
     <Compile Include="Fragments\ChangePasswordDialogFragment.cs" />
+    <Compile Include="Fragments\ClubActivitiesFragment.cs" />
     <Compile Include="Fragments\ConfirmUserDialogFragment.cs" />
     <Compile Include="Fragments\FinancialActivitiesFragment.cs" />
     <Compile Include="Fragments\FinancialActivityDetailFragment.cs" />
@@ -188,6 +189,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\NonFinancialActivityDetailLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ClubActivitiesFragmentLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

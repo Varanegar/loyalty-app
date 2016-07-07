@@ -83,4 +83,8 @@
   <string name="Terminal">ترمینال: </string>
   <string name="NetAmount">مبلغ خالص: </string>
   <string name="GrossAmount">مبلغ ناخالص: </string>
+  <string name="AdditionReductionAmount">مقدار افزایش یا کاهش: </string>
+  <string name="BalanceOff">مانده نهایی: </string>
+  <string name="Rule">قانون: </string>
+  <string name="Feature">ویژگی: </string>
 </resources>

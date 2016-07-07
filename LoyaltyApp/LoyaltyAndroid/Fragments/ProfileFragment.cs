@@ -38,14 +38,6 @@ namespace LoyaltyAndroid.Fragments
             var fragmentAdapter = new ProfileFragmentAdapter(ChildFragmentManager);
             profileViewPager.Adapter = fragmentAdapter;
             profileViewPager.CurrentItem = 3;
-            //profileTabLayout.AddTab(profileTabLayout.NewTab().SetText("Profile1"), true);
-            //profileTabLayout.AddTab(profileTabLayout.NewTab().SetText("Profile2"));
-            //profileTabLayout.TabSelected += (object sender, Android.Support.Design.Widget.TabLayout.TabSelectedEventArgs e) => {
-            //    if (e.Tab.Text == "Profile1")
-            //        profileViewPager.CurrentItem = 0;
-            //    else
-            //        profileViewPager.CurrentItem = 1;
-            //};
             profileTabLayout.SetupWithViewPager(profileViewPager);
             return view;
         }
