@@ -37,7 +37,7 @@ namespace LoyaltyAndroid.Fragments
 
             var fragmentAdapter = new ProfileFragmentAdapter(ChildFragmentManager);
             profileViewPager.Adapter = fragmentAdapter;
-            profileViewPager.CurrentItem = 2;
+            profileViewPager.CurrentItem = 3;
             //profileTabLayout.AddTab(profileTabLayout.NewTab().SetText("Profile1"), true);
             //profileTabLayout.AddTab(profileTabLayout.NewTab().SetText("Profile2"));
             //profileTabLayout.TabSelected += (object sender, Android.Support.Design.Widget.TabLayout.TabSelectedEventArgs e) => {
